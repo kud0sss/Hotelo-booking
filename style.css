@@ -184,7 +184,8 @@ nav ul li a:focus {
     transition: color 0.3s ease;
 }
 
-.close-menu-btn:hover {
+.close-menu-btn:hover
+.close-menu-btn:focus {
     color: #007bff;
 }
 
@@ -215,7 +216,8 @@ nav ul li a:focus {
     font-size: 1.125rem;
 }
 
-.mobile-menu ul li a:hover {
+.mobile-menu ul li a:hover
+.mobile-menu ul li a:focus {
     color: #007bff;
 }
 
@@ -348,7 +350,8 @@ nav ul li a:focus {
     justify-content: center;
 }
 
-.search-btn:hover {
+.search-btn:hover
+.search-btn:focus{
     background: #0056b3;
 }
 
@@ -547,7 +550,8 @@ nav ul li a:focus {
     transition: background-color 0.3s ease;
 }
 
-.explore-more:hover {
+.explore-more:hover
+.explore-more:focus {
     background-color: #0056b3;
 }
 
@@ -706,7 +710,8 @@ nav ul li a:focus {
     flex-shrink: 0;
 }
 
-.hotel-filters button:hover {
+.hotel-filters button:hover
+.hotel-filters button:focus {
     background: #007bff;
     color: #fff;
     border-color: #007bff;
@@ -726,7 +731,8 @@ nav ul li a:focus {
     white-space: nowrap;
 }
 
-.best-hotels-section .view-all:hover {
+.best-hotels-section .view-all:hover
+.best-hotels-section .view-all:focus {
     background: #333;
     color: #fff;
 }
@@ -802,7 +808,8 @@ nav ul li a:focus {
     margin-left: 0.625rem;
 }
 
-.price-details button:hover {
+.price-details button:hover
+.price-details button:focus {
     background: #0056b3;
 }
 
@@ -900,7 +907,8 @@ nav ul li a:focus {
     top: 0;
 }
 
-.subscribe-form button:hover {
+.subscribe-form button:hover
+.subscribe-form button:focus {
     background: #0056b3;
 }
 
