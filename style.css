@@ -1,4 +1,3 @@
-/* Reset and General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -184,8 +183,7 @@ nav ul li a:focus {
     transition: color 0.3s ease;
 }
 
-.close-menu-btn:hover
-.close-menu-btn:focus {
+.close-menu-btn:hover {
     color: #007bff;
 }
 
@@ -216,8 +214,7 @@ nav ul li a:focus {
     font-size: 1.125rem;
 }
 
-.mobile-menu ul li a:hover
-.mobile-menu ul li a:focus {
+.mobile-menu ul li a:hover {
     color: #007bff;
 }
 
@@ -350,8 +347,8 @@ nav ul li a:focus {
     justify-content: center;
 }
 
-.search-btn:hover
-.search-btn:focus{
+.search-btn:hover,
+.search-btn:focus {
     background: #0056b3;
 }
 
@@ -550,7 +547,7 @@ nav ul li a:focus {
     transition: background-color 0.3s ease;
 }
 
-.explore-more:hover
+.explore-more:hover,
 .explore-more:focus {
     background-color: #0056b3;
 }
@@ -710,7 +707,7 @@ nav ul li a:focus {
     flex-shrink: 0;
 }
 
-.hotel-filters button:hover
+.hotel-filters button:hover,
 .hotel-filters button:focus {
     background: #007bff;
     color: #fff;
@@ -731,7 +728,7 @@ nav ul li a:focus {
     white-space: nowrap;
 }
 
-.best-hotels-section .view-all:hover
+.best-hotels-section .view-all:hover,
 .best-hotels-section .view-all:focus {
     background: #333;
     color: #fff;
@@ -808,7 +805,7 @@ nav ul li a:focus {
     margin-left: 0.625rem;
 }
 
-.price-details button:hover
+.price-details button:hover,
 .price-details button:focus {
     background: #0056b3;
 }
@@ -907,7 +904,7 @@ nav ul li a:focus {
     top: 0;
 }
 
-.subscribe-form button:hover
+.subscribe-form button:hover,
 .subscribe-form button:focus {
     background: #0056b3;
 }
@@ -977,7 +974,7 @@ footer {
     margin-top: 1.5625rem;
 }
 
-@media (max-width: 87.5rem) {
+@media (max-width: 1400px) {
     .find-hotel-images {
         flex-direction: column;
     }
@@ -999,7 +996,7 @@ footer {
     }
 }
 
-@media (max-width: 75rem) {
+@media (max-width: 1200px) {
     .main-image img {
         min-height: 25rem;
     }
@@ -1017,7 +1014,7 @@ footer {
     }
 }
 
-@media (max-width: 62rem) {
+@media (max-width: 992px) {
     .main-image img {
         min-height: 20rem;
     }
@@ -1047,7 +1044,7 @@ footer {
     }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
     .main-image img {
         min-height: 15rem;
     }
@@ -1133,7 +1130,7 @@ footer {
     }
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 576px) {
     .main-image img {
         min-height: 12rem;
     }
@@ -1205,7 +1202,7 @@ footer {
     }
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 320px) {
     .main-image img {
         min-height: 10rem;
     }
